@@ -7,6 +7,24 @@
   padding: 0;
 }
 
+ #navheader{
+  padding: 1rem;
+  height: 4rem;
+  border-radius: 16rem;
+  flex: 0.5;
+  border: 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-color: gray;
+  text-align: center;
+ }
+ .navbar-nav{
+  color: red;
+  text-decoration: black;
+ }
+ #nav-link{
+  color:black
+ }
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -26,6 +44,7 @@ p {
 
 a,
 .btn {
+  color: black;
   transition: all 300ms ease;
 }
 
@@ -33,6 +52,7 @@ a,
 
 nav,
 .nav-links {
+  color: black;
   display: flex;
 }
 
@@ -51,7 +71,7 @@ nav {
 a {
   color: black;
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: black;
 }
 
 a:hover {
@@ -305,18 +325,20 @@ section {
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  transition-duration: 1s;
 }
- #navheader{
+
+/* .details-container:hover {
   padding: 1.5rem;
-  height: 5rem;
-  background-color: transparent;
-  border-radius: 16rem;
-  flex: 0.5;
-  border: 1px solid;
+  flex: 1;
+  background: lightgreen;
+  border-radius: 2.2rem;
+  border: 0.1px solid;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  border-color: gray;
-  text-align: center;
- }
+  border-color: rgb(163, 163, 163);
+  transition-duration: 1s;
+}
+ */
 
 
 .section-container {
