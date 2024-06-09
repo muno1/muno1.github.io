@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-1" id="navheader">
+  <nav class="navbar navbar-expand-lg  bg-dark mt-1" id="navheader">
     <div class="container-fluid d-flex">
       <a class="navbar-brand d-flex" href="#">Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle"
@@ -42,12 +42,7 @@
   </nav>
 
   <section id="profile">
-    <div class="section__pic-container">
-      <div class="col-4 mt-20 pt-20">
-        <img style="height: 35rem;" src="./assets/lastpp.jpg" alt="Mounir's profile picture" />
-      </div>
-      <div class="col-4"></div>
-      <div class="col-4">
+    <div class="section__pic-container ms-4">
         <div class="section__text">
           <p class="section__text__p1">Hello, I'm</p>
           <h1 class="title">Mounir</h1>
@@ -67,8 +62,7 @@
               onclick="location.href='https://github.com/muno1'" />
           </div>
         </div>
-      </div>
-
+        <img style="height: 35rem;" src="./assets/lastpp.jpg" alt="Mounir's profile picture" />
     </div>
 
   </section>
@@ -81,7 +75,7 @@
           <div class="details-container">
             <img src="./assets/experience.png" alt="Experience icon" class="icon" />
             <h3>Experience</h3>
-            <p>2+ years <br />Frontend Development</p>
+            <p>2+ years <br />Fullstack Development</p>
           </div>
           <div class="details-container">
             <img src="./assets/education.png" alt="Education icon" class="icon" />
@@ -107,8 +101,9 @@
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Experience</h1>
     <div class="experience-details-container">
-      <div class="row">
-        <div class="details-container col-5 ">
+      <div class="about-details-container"></div>
+      <div class="about-containers">
+        <div class="details-container  ">
           <h2 class="experience-sub-title">Client-side</h2>
           <div class="article-container">
             <article>
@@ -155,10 +150,7 @@
             </article>
           </div>
         </div>
-        <div class="col-2">
-
-        </div>
-        <div class="details-container col-5 me-0 ">
+        <div class="details-container ">
           <h2 class="experience-sub-title"> Server-side</h2>
           <div class="article-container">
             <article>
@@ -192,11 +184,15 @@
           </div>
         </div>
       </div>
+      </div>
 
 
 
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <section id=projects>
+    
   </section>
   <section id="contact">
     <p class="section__text__p1">Get in Touch</p>
@@ -212,6 +208,7 @@
       </div>
     </div>
   </section>
+
   <footer>
     <nav>
       <div class="nav-links-container">
